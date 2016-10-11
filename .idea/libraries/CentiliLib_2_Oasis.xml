@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="CentiliLib-2-Oasis">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/sdkcore/libs/CentiliLib-2-Oasis.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
