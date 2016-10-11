@@ -1,0 +1,151 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/game_main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="#789789">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context=".OasisSdkBaseActivity" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/sdk_login"
+                android:layout_width="80dip"
+                android:layout_height="wrap_content"
+                android:layout_margin="20dip"
+                android:onClick="onBtnClick"
+                android:text="@string/btn_login" />
+
+            <TextView android:id="@+id/sdk_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#ff0000"
+                android:textSize="12sp"/>
+            
+            <LinearLayout
+                android:id="@+id/sdk_ortherbtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" 
+                android:visibility="invisible">
+
+               
+
+                <Button
+                    android:id="@+id/sdk_pay"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="@string/btn_pay"
+                    android:visibility="visible"/>
+                <Button
+                    android:id="@+id/sdk_switchuser"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="切换用户"
+                    android:visibility="visible"/>
+                <Button
+                    android:id="@+id/sdk_logout"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="换服务器或角色"
+                    android:visibility="visible"/>
+                <Button
+                    android:id="@+id/sdk_setuserinfo"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="设置新服务器或角色"
+                    android:visibility="gone"/>
+                <Button
+                    android:id="@+id/sdk_showmenu"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="显示OG助手"
+                    android:visibility="gone"/>
+                <Button
+                    android:id="@+id/sdk_hidemenu"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="隐藏OG助手"
+                    android:visibility="visible"/>
+                <Button
+                    android:id="@+id/sdk_getFriends"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="获取好友"
+                    android:visibility="gone"/>
+                <Button
+                    android:id="@+id/sdk_getInviteFriends"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="获取可邀请好友"
+                    android:visibility="gone"/>
+                <Button
+                    android:id="@+id/sdk_fb_request_Invite"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="邀请好友"/>
+                <Button
+                    android:id="@+id/sdk_fb_request_send"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="赠送体力"/>
+                <Button
+                    android:id="@+id/sdk_fb_request_askfor"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="索要体力"/>
+                <Button
+                    android:id="@+id/sdk_shareImg"
+                    android:layout_width="80dip"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dip"
+                    android:onClick="onBtnClick"
+                    android:text="分享图片"
+                    android:visibility="visible"/>
+
+                
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <!--
+    <com.oasis.sdk.OASISPlatfromMenuTest
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+    </com.oasis.sdk.OASISPlatfromMenuTest>
+    -->
+
+</RelativeLayout>

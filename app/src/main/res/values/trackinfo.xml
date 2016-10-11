@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools"
+	tools:ignore="TypographyDashes">
+	
+<!-- 此文档内容为自动生成，不能修改。 -->
+
+<string name="oasis_sdk_signkey">3.5.0_20160829104338</string>
+<string name="oasis_sdk_gamecode">mtester</string>
+<string name="oasis_sdk_publickey">ggsaPOLW05QpMfj1w5SotegFUQgpMb</string>
+<string name="oasis_sdk_paykey">11110a90be21f4407176016d37782303</string>
+<string name="oasis_sdk_Environment">test</string><!-- production -->
+<string name="oasis_sdk_GameMode">online</string>
+
+<string name="chartboost_appid">533448b52d42da02e06053bc</string>
+<string name="chartboost_appsignature">753876ca90ac0202067cdd50c3df4d4a3ea649c8</string>
+
+<string name="ga_trackingId">UA-52923860-Y</string>
+<bool name="ga_autoActivityTracking">true</bool>
+<bool name="ga_reportUncaughtExceptions">true</bool>
+
+<string name="admob_conversion_id">1038185027</string>
+<string name="admob_conversion_label">aqUCHIerhAgQw-SF7wM</string>
+<string name="admob_conversion_value">0</string>
+
+<string name="mdata_appid">3392856151</string>
+
+<string name="inmobi_appid">9aae9ea251ae468897908b22aba7f182</string>
+
+<string name="gcm_senderid">575010225997</string>
+<string name="googleplay_app_id">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAniewls7QWIwpYuFIPIb/4jrlLr9t5IS0YIwgOzDjdfo7qHX+cmi3I/o8YCJF749kMqEnZask9PqNzBlmVHygCUn9wlL2e99GnJtwSunYzz75VCWeGlZPS/bXgKKUyyCZz8QhbDZSyJhf1iUY+SH5q/BBEb6GIsm4ybsQbEuDNM1UnMITbL5/DS5wOuNfVecoyJV4aUllGGVOqCHPVbqPMP7JFxJUN2dh6WAtK/qoEcFkdSzN9339wj7155e1IqlLdzcsXqxzs6VuSrYxYJrYR1e2WSWtyLpKuhfiRYMTrEWdnJBjrGQ3qPIwOovkdJlsJpOlhg9WElDSR5MTQZtNQwIDAQAB</string>
+
+<string name="facebook_app_id">186896621518482</string>
+<string name="facebook_app_linkurl">https://www.facebook.com/almas.imortais.pt/</string>
+
+<string name="adjust_app_token">2d4u6n68ardy</string><!-- 2d4u6n68ardy  lcafhhx9tt6o-->
+</resources>
