@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/oasisgames_sdk_common_button_017baa" android:state_pressed="true"/>
+    <item android:drawable="@drawable/oasisgames_sdk_common_button_017baa" android:state_focused="true"/>
+    <item android:drawable="@drawable/oasisgames_sdk_common_button_017baa" android:state_selected="true"/>
+    <item android:drawable="@drawable/oasisgames_sdk_common_button_1_174_217"/>
+
+</selector>

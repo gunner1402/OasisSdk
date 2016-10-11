@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@color/oasisgames_sdk_color_bg_227_227_227"
+    android:orientation="vertical" >
+
+    <include layout="@layout/oasisgames_sdk_common_layout_head" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        android:paddingTop="12dip"
+        android:paddingBottom="12dip"
+        android:paddingLeft="20dip"
+        android:paddingRight="20dip" >
+
+        <LinearLayout
+            android:id="@+id/oasisgames_sdk_pay_history_data"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+			android:visibility="gone">      
+            <ListView
+	            android:id="@+id/oasisgames_sdk_pay_history_list"
+	            android:layout_width="fill_parent"
+	            android:layout_height="wrap_content"
+	            android:divider="@android:color/transparent"
+	            android:dividerHeight="12dip"
+	            android:listSelector="#00000000"
+	            android:orientation="vertical" /> <!-- 支付记录 -->
+        </LinearLayout>
+        <TextView 
+            android:id="@+id/oasisgames_sdk_pay_history_nodata"
+            android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+            android:layout_marginTop="20dip"
+            android:text="@string/oasisgames_sdk_pay_history_4"
+            android:paddingTop="80dip"
+            android:gravity="center_horizontal"
+            android:textSize="18sp"
+			style="@style/oasisgames_sdk_text_style_black9f9f9f"
+			android:visibility="gone"/>
+    </LinearLayout>
+
+</LinearLayout>

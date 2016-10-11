@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/oasisgames_sdk_color_bg_227_227_227" >
+
+    <RelativeLayout
+        android:id="@+id/oasisgames_sdk_feedback_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/oasisgames_sdk_feedback_view_close"
+            android:layout_width="55dip"
+            android:layout_height="55dip"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:gravity="center" 
+            android:clickable="true"
+            android:onClick="buttonOnClick">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/oasisgames_sdk_forum_fuc_exit_selector" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="55dip"
+            android:gravity="center_horizontal"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/oasisgames_sdk_feedback_view_notice"
+                android:layout_width="310dip"
+                android:layout_height="wrap_content"
+                android:maxLines="6"
+                android:text="@string/oasisgames_sdk_feedback_notice_device"
+                android:textColor="@color/oasisgames_sdk_color_font_666666"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/oasisgames_sdk_feedback_view_email"
+                android:layout_width="310dip"
+                android:layout_height="52dip"
+                android:layout_marginTop="12dip"
+                android:background="@drawable/oasisgames_sdk_customer_input_bg"
+                android:gravity="center_vertical"
+                android:hint="@string/oasisgames_sdk_feedback_hint_email"
+                android:inputType="textEmailSubject"
+                android:padding="3dip"
+                android:singleLine="true"
+                android:textColor="@color/oasisgames_sdk_color_font_9f9f9f"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/oasisgames_sdk_feedback_view_discrip"
+                android:layout_width="310dip"
+                android:layout_height="160dip"
+                android:layout_marginTop="12dip"
+                android:background="@drawable/oasisgames_sdk_customer_input_bg"
+                android:gravity="top|left"
+                android:hint="@string/oasisgames_sdk_feedback_hint_discrip"
+                android:inputType="textShortMessage"
+                android:maxLines="5"
+                android:padding="3dip"
+                android:textColor="@color/oasisgames_sdk_color_font_9f9f9f"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/oasisgames_sdk_feedback_view_submit"
+                android:layout_width="310dip"
+                android:layout_height="40dip"
+                android:layout_marginTop="12dip"
+                android:background="@drawable/oasisgames_sdk_common_00aed9_017baa"
+                android:gravity="center"
+                android:clickable="true"
+                android:onClick="buttonOnClick"
+                android:text="@string/oasisgames_sdk_common_btn_submit"
+                android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+                android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24" />
+        </LinearLayout>
+        
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AA000000" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="480dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="88dp"
+            android:background="@color/oasisgames_sdk_color_bg_eaeaea"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="49dp"
+                android:text="@string/oasisgames_sdk_login_history_title"
+                android:textColor="@color/oasisgames_sdk_color_font_00add9"
+                android:textSize="@dimen/oasisgames_sdk_dimen_head_font_size_30" />
+
+            <LinearLayout
+                android:id="@+id/oasisgames_sdk_login_history_cancle_icon"
+		        android:layout_width="88dp"
+		        android:layout_height="88dp"
+                android:layout_alignParentRight="true"
+                android:gravity="center">
+                <ImageView
+	                android:layout_width="35dp"
+	                android:layout_height="35dp"
+	                android:background="@drawable/oasisgames_sdk_history_close" />
+                
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="392dp"
+            android:orientation="vertical" >
+	
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="367dp"
+                android:background="@color/oasisgames_sdk_color_bg_227_227_227"
+                android:orientation="vertical" >
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="1dip"
+                    android:background="@color/oasisgames_sdk_color_list_divider_d1d1d1" />
+
+                <ListView
+                    android:id="@+id/oasisgames_sdk_login_history_role_detaillist"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:cacheColorHint="#00000000"
+                    android:choiceMode="none"
+                    android:listSelector="@drawable/oasisgames_login_history_role_selector"
+                    android:fadingEdge="none"
+                    android:fastScrollEnabled="false"
+                    android:footerDividersEnabled="true"
+                    android:headerDividersEnabled="false" >
+                </ListView>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/oasisgames_sdk_login_history_enter"
+                android:layout_width="fill_parent"
+                android:layout_height="90dp"
+                android:layout_alignParentBottom="true"
+                android:background="@color/oasisgames_sdk_color_font_00afd9"
+                android:gravity="center"
+                android:paddingTop="5dp"
+                android:text="@string/oasisgames_sdk_login_history_enter"
+                android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+                android:textSize="@dimen/oasisgames_sdk_dimen_head_font_size_30" />
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

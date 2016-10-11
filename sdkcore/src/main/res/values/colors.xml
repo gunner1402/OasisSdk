@@ -1,0 +1,26 @@
+<resources>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="transparent_background">#00000000</color>
+    
+    <!-- <color name="result_view">#b0000000</color>
+      <color name="viewfinder_mask">#60000000</color> -->
+    <color name="oasisgames_sdk_saomiao_result_view">#FF000000</color>
+      <color name="oasisgames_sdk_saomiao_viewfinder_mask">#AA000000</color>
+      <color name="oasisgames_sdk_saomiao_possible_result_points">#c0ffff00</color> 
+
+      
+      <color name="oasisgames_sdk_color_bg_9_131_168">#0983A8</color> 
+      <color name="oasisgames_sdk_color_bg_227_227_227">#E3E3E3</color> 
+      <color name="oasisgames_sdk_color_bg_FAFAFA">#FAFAFA</color> 
+      <color name="oasisgames_sdk_color_bg_eaeaea">#EAEAEA</color> 
+      <color name="oasisgames_sdk_color_bg_f3f3f3">#F3F3F3</color> 
+      <color name="oasisgames_sdk_color_font_00afd9">#00afd9</color>
+      <color name="oasisgames_sdk_color_font_FFFFFF">#FFFFFF</color> 
+      <color name="oasisgames_sdk_color_font_00aed9">#00aed9</color> 
+      <color name="oasisgames_sdk_color_font_00add9">#00add9</color>
+      <color name="oasisgames_sdk_color_font_666666">#666666</color> 
+      <color name="oasisgames_sdk_color_font_9f9f9f">#9f9f9f</color> 
+      <color name="oasisgames_sdk_color_list_divider_d1d1d1">#d1d1d1</color> 
+      <color name="oasisgames_sdk_color_list_selector_c6c6c6">#c6c6c6</color> 
+</resources>

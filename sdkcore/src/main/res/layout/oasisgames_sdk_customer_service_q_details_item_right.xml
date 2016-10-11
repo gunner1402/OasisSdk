@@ -1,0 +1,83 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/oasisgames_sdk_customer_service_q_details_item_headimg_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true" 
+        android:background="@drawable/oasisgames_sdk_customer_logo_user"/>
+
+    <TextView
+        android:id="@+id/oasisgames_sdk_customer_service_q_details_item_username_right"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@id/oasisgames_sdk_customer_service_q_details_item_headimg_right"
+        android:text="@string/oasisgames_sdk_customer_notice13"
+        android:textColor="#000000"
+        android:textSize="16sp" 
+        android:layout_marginBottom="10dip"
+        android:layout_marginRight="20dip"/>
+	
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_below="@id/oasisgames_sdk_customer_service_q_details_item_username_right"
+        android:layout_toLeftOf="@id/oasisgames_sdk_customer_service_q_details_item_headimg_right">
+	 	<LinearLayout
+	        android:id="@+id/oasisgames_sdk_customer_service_q_details_item_content_status_right"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_gravity="center_vertical"
+	        android:gravity="center" 
+	        android:paddingLeft="10dip"
+	        android:paddingRight="10dip"
+	        android:visibility="invisible">
+	 	    <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:background="@drawable/oasisgames_sdk_customer_send_status" />
+	 	    <!-- 进度条 -->
+            <ProgressBar
+                style="?android:attr/progressBarStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:visibility="gone" />
+	 	</LinearLayout>
+        <LinearLayout
+	        android:id="@+id/oasisgames_sdk_customer_service_q_details_item_content_right"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/oasisgames_sdk_customer_chart_bg_right"
+	        android:gravity="right|center_vertical" 
+	        android:layout_marginRight="10dip">
+	
+	        <TextView
+	            android:id="@+id/oasisgames_sdk_customer_service_q_details_item_content_word_right"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:textColor="@color/oasisgames_sdk_color_font_666666"
+	            android:textSize="18sp"/>
+	        <ImageView
+	            android:id="@+id/oasisgames_sdk_customer_service_q_details_item_content_image_local_right"
+	            android:layout_width="200dip"
+	            android:layout_height="200dip"
+	            android:contentDescription="@string/oasisgames_sdk_common_imageview_disctiption"
+	            android:src="@drawable/oasisgames_sdk_customer_bg_default"
+	            android:scaleType="centerInside"
+	            android:visibility="gone" />
+	
+	    </LinearLayout>
+    </LinearLayout>
+    
+</RelativeLayout>

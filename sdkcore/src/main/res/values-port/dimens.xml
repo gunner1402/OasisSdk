@@ -1,0 +1,7 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_tab_width">99dip</dimen>
+    <dimen name="activity_tab_width_pay">98dip</dimen>
+
+</resources>

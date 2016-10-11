@@ -1,0 +1,21 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dip"
+    android:paddingBottom="8dip"
+    android:gravity="center_horizontal">
+    <TextView 
+	    android:id="@+id/oasisgames_sdk_customer_service_q_details_item_notice_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:paddingLeft="40dip"
+	    android:paddingRight="40dip"
+	    android:background="@drawable/oasisgames_sdk_common_bg_209_209_209"
+	    android:gravity="center"
+	    android:minHeight="36dip"
+	    android:text="@string/oasisgames_sdk_customer_notice3"
+	    android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+	    android:textSize="16sp" />
+</LinearLayout>
+

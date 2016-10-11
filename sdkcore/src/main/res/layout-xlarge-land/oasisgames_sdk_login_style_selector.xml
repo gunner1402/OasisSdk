@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/oasisgames_sdk_color_bg_227_227_227" >
+
+     <LinearLayout
+         android:id="@+id/oasisgames_sdk_login_style_selector_notice_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/oasisgames_sdk_dimen_login_notice_height_pad"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/oasisgames_sdk_dimen_login_notice_margin_pad"
+        android:layout_marginLeft="@dimen/oasisgames_sdk_dimen_login_notice_margin_pad"
+        android:layout_marginRight="@dimen/oasisgames_sdk_dimen_login_notice_margin_pad"
+        android:orientation="vertical" 
+        android:gravity="top|left"
+        android:padding="10dip"
+        android:background="@drawable/oasisgames_sdk_common_bg_209_209_209">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oasisgames_sdk_login_notice_1"
+            android:textColor="@color/oasisgames_sdk_color_font_666666"
+            android:textSize="28sp"/>
+        <TextView
+	         android:id="@+id/oasisgames_sdk_login_style_selector_notice_layout_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/oasisgames_sdk_login_notice_2"
+            android:textColor="@color/oasisgames_sdk_color_font_666666"
+            android:textSize="24sp"
+            android:paddingLeft="30dip"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/oasisgames_sdk_login_style_selector_type" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="@dimen/oasisgames_sdk_dimen_login_notice_margin_pad"
+        android:layout_below="@id/oasisgames_sdk_login_style_selector_notice_layout"
+        android:gravity="center_horizontal">
+        <Button
+            android:id="@+id/oasisgames_sdk_login_style_selector_facebook"
+            android:layout_width="@dimen/oasisgames_sdk_dimen_login_textview_wh_pad"
+            android:layout_height="@dimen/oasisgames_sdk_dimen_login_textview_wh_pad"
+            android:background="@drawable/oasisgames_sdk_login_button_facebook"
+            android:orientation="horizontal" 
+            android:layout_marginRight="25dip">
+
+        </Button>
+        <Button
+            android:id="@+id/oasisgames_sdk_login_style_selector_submit"
+            android:layout_width="@dimen/oasisgames_sdk_dimen_login_textview_wh_pad"
+            android:layout_height="@dimen/oasisgames_sdk_dimen_login_textview_wh_pad"
+            android:layout_marginLeft="25dip"
+            android:layout_marginRight="25dip"
+            android:background="@drawable/oasisgames_sdk_login_button_oas"
+            android:onClick="buttonOnClick" />
+        <Button
+            android:id="@+id/oasisgames_sdk_login_style_selector_google"
+            android:layout_width="@dimen/oasisgames_sdk_dimen_login_textview_wh_pad"
+            android:layout_height="@dimen/oasisgames_sdk_dimen_login_textview_wh_pad"
+            android:layout_marginLeft="25dip"
+            android:background="@drawable/oasisgames_sdk_login_button_google"
+            android:onClick="buttonOnClick" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/oasisgames_sdk_login_style_selector_regist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="80dip"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/oasisgames_sdk_login_style_selector_type"
+        android:layout_marginRight="@dimen/oasisgames_sdk_dimen_login_notice_margin_pad"
+        android:paddingTop="20dip"
+        android:gravity="right"
+        android:text="@string/oasisgames_sdk_login_button_registnewuser" 
+        android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24"
+        android:textColor="@color/oasisgames_sdk_color_font_666666"/>
+</RelativeLayout>

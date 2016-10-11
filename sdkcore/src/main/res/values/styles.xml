@@ -1,0 +1,39 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <style name="AppTheme" parent="android:Theme.Black.NoTitleBar" />
+
+    <style name="oasisgames_sdk_activity_MyDialogStyle" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:backgroundDimEnabled">false</item>
+	</style>
+    <style name="oasisgames_sdk_activity_MyDialogStyle_new" parent="@android:style/Theme.NoTitleBar.Fullscreen">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">false</item>
+	</style>
+		
+	<style name="oasisgames_sdk_checkbox_style" parent="@android:style/Widget.CompoundButton.CheckBox">
+  	 <item name="android:button">@drawable/oasisgames_sdk_common_checkbox_selector</item>
+  	 <item name="android:paddingLeft">20dip</item>
+  	 <item name="android:textColor">#666666</item>
+  	 <item name="android:textSize">@dimen/oasisgames_sdk_button_dimen_textsize_16</item>
+  	 
+  	</style>
+	<style name="oasisgames_sdk_text_style_bule00aed9" >
+  	 <item name="android:textColor">@color/oasisgames_sdk_color_font_00aed9</item>
+  	 <item name="android:textSize">@dimen/oasisgames_sdk_button_dimen_textsize_16</item>
+  	</style>
+	<style name="oasisgames_sdk_text_style_black9f9f9f" >
+  	 <item name="android:textColor">@color/oasisgames_sdk_color_font_9f9f9f</item>
+  	 <item name="android:textSize">@dimen/oasisgames_sdk_button_dimen_textsize</item>
+  	</style>
+</resources>

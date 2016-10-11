@@ -1,0 +1,9 @@
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/oasisgames_sdk_customer_service_type_item_title"
+    android:layout_width="fill_parent"
+    android:layout_height="40dip"
+    android:textColor="@color/oasisgames_sdk_color_font_666666"
+    android:textSize="18sp" 
+    android:gravity="center_vertical"
+    android:padding="15dip"/>

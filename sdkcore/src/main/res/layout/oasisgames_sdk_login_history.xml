@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/oasisgames_sdk_color_bg_227_227_227"
+    android:orientation="vertical" >
+
+    <com.oasis.sdk.base.list.LoginHistoryListView
+        android:id="@+id/oasisgames_sdk_login_history_accountinfo"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#00000000"
+        android:divider="@color/oasisgames_sdk_color_list_divider_d1d1d1"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/oasisgames_login_history_selector"
+        android:fadingEdge="none"
+        android:fastScrollEnabled="false"
+        android:footerDividersEnabled="false"
+        android:headerDividersEnabled="false"
+        android:smoothScrollbar="true" >
+    </com.oasis.sdk.base.list.LoginHistoryListView>
+
+</LinearLayout>

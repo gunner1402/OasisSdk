@@ -1,0 +1,21 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_gravity="center"
+	    android:background="@color/oasisgames_sdk_color_bg_227_227_227"
+	    android:orientation="vertical" >
+	
+	    <include layout="@layout/oasisgames_sdk_common_layout_head" />
+	
+	    <LinearLayout
+	        android:id="@+id/oasisgames_sdk_pay_boacompra_webview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:orientation="horizontal"/>
+	
+	</LinearLayout>
+    
+</FrameLayout>

@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:gravity="left|center_vertical">
+
+       	<LinearLayout android:id="@+id/oasisgames_sdk_login_login_user_item_delete"
+            android:layout_width="40dip"
+            android:layout_height="40dip"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:gravity="center">
+	       <TextView 
+	            android:layout_width="@dimen/oasisgames_sdk_dimen_login_input_closebtn_wh"
+	            android:layout_height="@dimen/oasisgames_sdk_dimen_login_input_closebtn_wh"
+	            android:background="@drawable/oasisgames_sdk_common_input_bg_clean_blue"/>
+            
+       </LinearLayout>
+
+    
+        <TextView
+            android:id="@+id/oasisgames_sdk_login_login_user_item_name"
+            android:layout_width="match_parent"
+            android:layout_height="40dip"
+            android:layout_toLeftOf="@id/oasisgames_sdk_login_login_user_item_delete"
+            android:layout_centerVertical="true"
+            android:textColor="#666666"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/oasisgames_sdk_dimen_login_input_padding_40"
+            android:singleLine="true"
+            android:ellipsize="end"/>
+       	
+</RelativeLayout>

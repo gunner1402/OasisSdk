@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content" 
+    android:background="@drawable/oasisgames_sdk_common_list_item_selector">
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="10dip"
+        android:gravity="center_vertical">
+        <TextView
+	        android:id="@+id/oasisgames_sdk_pcenter_fuc_item_img"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:background="@drawable/oasisgames_sdk_pcenter_item_5"/>
+        <TextView
+	        android:id="@+id/oasisgames_sdk_pcenter_fuc_item_title"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" 
+	        android:layout_marginLeft="10dip"
+	        android:text="@string/oasisgames_sdk_pcenter_notice_1"
+	        style="@style/oasisgames_sdk_text_style_black9f9f9f"
+	        android:textSize="20sp"/>
+    </LinearLayout>
+    
+
+    <LinearLayout android:layout_width="wrap_content"
+        android:layout_height="60dip"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dip"
+        android:gravity="center_vertical">
+	    <TextView
+	        android:id="@+id/oasisgames_sdk_pcenter_fuc_item_tag"
+	        android:layout_width="20dip"
+	        android:layout_height="20dip"
+	        android:layout_marginRight="10dip"
+	        android:layout_gravity="center"
+	        android:background="@drawable/oasisgames_sdk_menu_ico_tag"
+	        android:visibility="gone"/>
+	    <TextView
+	        android:id="@+id/oasisgames_sdk_pcenter_fuc_item_notice"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        style="@style/oasisgames_sdk_text_style_bule00aed9"
+	        android:textSize="20sp"/>
+	
+	    <TextView
+	        android:layout_width="10dip"
+	        android:layout_height="17dip" 
+	        android:background="@drawable/oasisgames_sdk_common_jiantou"/>
+	</LinearLayout>
+</RelativeLayout>

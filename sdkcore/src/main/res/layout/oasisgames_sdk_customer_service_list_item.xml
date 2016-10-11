@@ -1,0 +1,52 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+    android:padding="10dip">
+
+    <!-- <com.mopub.volley.toolbox.NetworkImageView
+        android:id="@+id/oasisgames_sdk_customer_service_list_item_img"
+        android:layout_width="48dip"
+        android:layout_height="48dip"
+        android:contentDescription="@string/oasisgames_sdk_common_imageview_disctiption" /> -->
+    <!--
+         <ImageView
+        android:id="@+id/oasisgames_sdk_customer_service_list_item_img"
+        android:contentDescription="@string/oasisgames_sdk_common_imageview_disctiption"
+        android:layout_width="48dip"
+        android:layout_height="48dip" />
+        android:maxLines="3"
+        android:ellipsize="end"
+         -->
+
+    <TextView
+        android:id="@+id/oasisgames_sdk_customer_service_list_item_title"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:maxLines="3"
+        android:ellipsize="end"
+        android:textSize="18sp"
+        android:textColor="@color/oasisgames_sdk_color_font_666666"/>
+    <TextView
+        android:id="@+id/oasisgames_sdk_customer_service_list_item_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/oasisgames_sdk_customer_service_list_item_title"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:textSize="18sp"
+        android:textColor="@color/oasisgames_sdk_color_font_666666"/>
+    <TextView
+        android:id="@+id/oasisgames_sdk_customer_service_list_item_other"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" 
+        android:layout_below="@id/oasisgames_sdk_customer_service_list_item_title"
+        android:background="@drawable/oasisgames_sdk_common_notice_bg"
+        android:layout_alignParentRight="true"
+        android:gravity="center"
+        android:padding="5dip"
+        android:textSize="18sp"
+        android:textColor="@color/oasisgames_sdk_color_font_666666"/>
+
+</RelativeLayout>

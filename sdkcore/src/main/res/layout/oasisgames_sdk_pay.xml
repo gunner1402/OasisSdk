@@ -1,0 +1,135 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@color/oasisgames_sdk_color_bg_227_227_227"
+        android:orientation="vertical" >
+
+        <include layout="@layout/oasisgames_sdk_common_layout_head" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:padding="15dip" >
+
+            <Button
+                android:id="@+id/oasisgames_sdk_pay_btn"
+                android:layout_width="fill_parent"
+                android:layout_height="@dimen/oasisgames_sdk_dimen_login_button_height"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="30dip"
+                android:layout_marginRight="30dip"
+                android:background="@drawable/oasisgames_sdk_common_00aed9_017baa"
+                android:onClick="onClickToPay"
+                android:text="@string/oasisgames_sdk_pay_btn"
+                android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+                android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24" />
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_above="@id/oasisgames_sdk_pay_btn"
+                android:layout_alignParentTop="true"
+                android:layout_marginBottom="@dimen/oasisgames_sdk_dimen_login_notice_margin"
+                android:orientation="horizontal" >
+
+                <ListView
+                    android:id="@+id/oasisgames_sdk_pay_listview"
+                    android:layout_width="144dip"
+                    android:layout_height="wrap_content"
+                    android:divider="#FFFFFFFF"
+                    android:fadingEdge="none"
+                    android:fadingEdgeLength="0dip" />
+
+                <GridView
+                    android:id="@+id/oasisgames_sdk_pay_gridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:background="#EEEEEE"
+                    android:fadingEdge="none"
+                    android:fadingEdgeLength="0dip"
+                    android:horizontalSpacing="10dip"
+                    android:numColumns="1"
+                    android:verticalSpacing="10dip" >
+                </GridView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/oasisgames_sdk_pay_notice"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_centerInParent="true"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="invisible" >
+
+                <TextView
+                    android:id="@+id/oasisgames_sdk_pay_reload"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/oasisgames_sdk_payway_reload" />
+
+                <TextView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="45dip"
+                    android:gravity="center"
+                    android:padding="15dip"
+                    android:text="@string/oasisgames_sdk_pay_notice_null2"
+                    android:textColor="@color/oasisgames_sdk_color_font_666666"
+                    android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+	<RelativeLayout 
+	    android:id="@+id/oasisgames_sdk_guide_pay"
+	    android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+	    <TextView
+	        android:id="@+id/oasisgames_sdk_guide_pay_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/oasisgames_sdk_guide_pay_btn" />
+	    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/oasisgames_sdk_guide_pay_btn"
+            android:background="#B2000000" />
+	    <LinearLayout 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/oasisgames_sdk_guide_pay_btn"
+            android:background="#B2000000">
+		    <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+            	android:background="@drawable/oasisgames_sdk_guide_pay_btn"
+            	android:visibility="invisible"  />
+	    </LinearLayout>
+	    <TextView
+	        android:id="@+id/oasisgames_sdk_guide_pay_btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="60dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/oasisgames_sdk_guide_pay_btn"
+            android:background="@drawable/oasisgames_sdk_guide_righttop" />
+	    <TextView
+            android:layout_width="300dip"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="80dip"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/oasisgames_sdk_guide_pay_btn2"
+            android:gravity="right"
+			android:text="@string/oasisgames_sdk_guide_notice3"
+			android:textSize="14sp"
+			android:textColor="#FFFFFF"/>
+	</RelativeLayout>
+</FrameLayout>

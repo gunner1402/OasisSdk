@@ -1,0 +1,53 @@
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center"
+        android:background="@color/oasisgames_sdk_color_bg_227_227_227"
+        android:orientation="vertical" >
+
+        <include layout="@layout/oasisgames_sdk_common_layout_head" />
+
+        <ScrollView 
+            android:id="@+id/oasisgames_sdk_pcenter_scrollview" 
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:overScrollMode="never">
+            
+            <LinearLayout
+	            android:layout_width="fill_parent"
+	            android:layout_height="fill_parent"
+	            android:orientation="vertical"
+	            android:padding="20dip" >
+	            
+	            <include layout="@layout/oasisgames_sdk_pcenter_userinfo"/><!-- 个人信息 -->
+	            
+	            
+	            <LinearLayout
+	                android:id="@+id/oasisgames_sdk_pcenter_fuc" 
+	                android:layout_width="fill_parent"
+	            	android:layout_height="wrap_content"
+	            	android:orientation="vertical"
+	            	android:layout_marginTop="20dip"
+	            	android:background="@drawable/oasisgames_sdk_common_box_white">
+	                
+	            </LinearLayout>
+	            
+	            <LinearLayout
+	                android:id="@+id/oasisgames_sdk_pcenter_fuc_other" 
+	                android:layout_width="fill_parent"
+	            	android:layout_height="wrap_content"
+	            	android:layout_marginTop="20dip"
+	            	android:orientation="vertical"
+	            	android:background="@drawable/oasisgames_sdk_common_box_white"/><!-- 其他功能：用户资料、客服入口 -->
+		        
+		        <TextView
+		            android:id="@+id/oasisgames_sdk_pcenter_fuc_changeuser" 
+	                android:layout_width="wrap_content"
+	            	android:layout_height="wrap_content"
+	            	android:layout_gravity="bottom|right"
+	            	android:layout_marginTop="40dip"
+	            	style="@style/oasisgames_sdk_text_style_black9f9f9f"/>
+	        </LinearLayout>
+        </ScrollView>
+        
+    </LinearLayout>

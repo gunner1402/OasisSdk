@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    Copyright (c) 2014-present, Facebook, Inc. All rights reserved.
+
+    You are hereby granted a non-exclusive, worldwide, royalty-free license to use,
+    copy, modify, and distribute this software in source code or binary form for use
+    in connection with the web services and APIs provided by Facebook.
+
+    As with any software that integrates with the Facebook platform, your use of
+    this software is subject to the Facebook Developer Principles and Policies
+    [http://developers.facebook.com/policy/]. This copyright notice shall be
+    included in all copies or substantial portions of the software.
+
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS
+    FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR
+    COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER
+    IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+    CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
+
+<resources>
+    <string name="oasisgames_sdk_head_title_register">Créer un compte Oasis Games</string>
+	<string name="oasisgames_sdk_login_hint_username">Numéro du compte.</string>
+	<string name="oasisgames_sdk_login_hint_password">Mot de passe.</string>
+	<string name="oasisgames_sdk_login_username_notice_error_length">Le compte doit comprendre 6 à 50 caractères.</string>
+	<string name="oasisgames_sdk_login_username_notice_error1">Le compte ne peut pas être entièrement composé de chiffres. </string>
+	<string name="oasisgames_sdk_login_password_notice_error2">Le mot de passe ne peut pas être composé de &amp; ou #.</string>
+	<string name="oasisgames_sdk_login_rule_notice2">Conditions d\'utilisation</string>
+	<string name="oasisgames_sdk_bind_btn_regist">Accepter les conditions d\'utilisation et s\'inscrire</string>
+	<string name="oasisgames_sdk_bind_btn_userrule">Lire les conditions d\'utilisation</string>
+	<string name="oasissdk_temp_1">Utiliser le lien facebook</string>
+	<string name="oasissdk_temp_2">Se connecter avec le compte Oasis Games</string>
+	<string name="oasisgames_sdk_common_btn_sure">Confirmer</string>
+	<string name="oasisgames_sdk_bind_success">Félicitations, l\'inscription a réussi. Vous pouvez utiliser OASIS pour vous connecter au jeu. </string>
+	<string name="oasisgames_sdk_login_result_1">Connexion réussi!</string>
+	<string name="oasisgames_sdk_bind_togame">Continuer le jeu</string>
+	<string name="oasisgames_sdk_head_title_changeuser">Changer</string>
+	<string name="oasisgames_sdk_login_notice_changeuser">Le changement de compte entraîne la perte de votre personnage actuel. Veuillez procéder prudemment.</string>
+	<string name="oasisgames_sdk_login_button_changeuser_suer">Confirmer</string>
+	<string name="oasisgames_sdk_login_button_changeuser_toregist">S\'inscrire</string>
+	<string name="oasisgames_sdk_login_notice_2">Après avoir changé de compte, le compte auquel vous avez passé sera utilisé lorsque vous vous connectez à nouveau. Veuillez choisir votre mode de connexion.</string>
+	<string name="oasissdk_temp_3">Passer au compte Facebook</string>
+	<string name="oasisgames_sdk_head_title_changeuser_oas">Passer au compte Oasis Games</string>
+	<string name="oasisgames_sdk_login_button_registnewuser">Créer un nouveau compte</string>
+	<string name="oasissdk_temp_4">Veuillez entrer un compte et un mot de passe correct</string>
+	<string name="oasisgames_sdk_login_notice_autologin_fail">Connexion échoué, réessayez svp.</string>
+	<string name="oasisgames_sdk_login_notice_autologin_fail_btn">Se connecter maintenant</string>
+	<string name="oasisgames_sdk_login_forgetpw_text">Mot de passe oublié?</string>
+	<string name="oasissdk_temp_6">Veuillez choisir votre mode de connexion.</string>
+	<string name="oasissdk_temp_7">Compte actuel</string>
+	<string name="oasisgames_sdk_pay_notice_no">La région dans laquelle vous êtes ne supporte pas les paiements mobiles.</string>
+	<string name="oasisgames_sdk_pay_notice_null">Veuillez choisir le forfait.</string>
+	<string name="oasisgames_sdk_pay_btn">Payer maintenant </string>
+	<string name="oasisgames_sdk_scan_text1">Description de l\'opération </string>
+	<string name="oasisgames_sdk_scan_text2_1">Veuillez l\'ouvrir avec un navigateur de PC.</string>
+	<string name="oasisgames_sdk_scan_text2_2">Vous pouvez scanner automatiquement en plaçant le code QR dans le cadre. </string>
+	<string name="oasisgames_sdk_scan_success">Numérisation réussi! Veuillez utiliser un PC pour compléter la recharge. </string>
+	<string name="oasisgames_sdk_login_notice_autologin_exception">Échec de la connexion au réseau, veuillez réessayer dans un instant. </string>
+	<string name="oasisgames_sdk_login_notice_autologin_exception_btn">Réessayer</string>
+	<string name="oasisgames_sdk_login_notice_1">Bienvenue </string>
+	<string name="oasisgames_sdk_publickey_not_init">Le KEY commun n\'est pas encore initialisé. </string>
+	<string name="oasisgames_sdk_paykey_not_init">Le KEY de paiement n\'est pas encore initialisé. </string>
+	<string name="oasisgames_sdk_login_btn_submit">Se connecter</string>
+	<string name="oasissdk_temp_8">Nous vous suggerons de modifier votre mot de passe, si vous n\'êtes pas l\'auteur de cette opération.</string>
+	<string name="oasisgames_sdk_bind_notice_connectto">Lier à </string>
+	<string name="oasisgames_sdk_login_username_text">Compte</string>
+	<string name="oasisgames_sdk_login_username_text2">Email</string>
+	<string name="oasisgames_sdk_login_password_text">Mot de passe</string>
+	<string name="oasisgames_sdk_login_remenberpw_text">Mémoriser le mot de passe</string>
+	<string name="oasisgames_sdk_login_userlist_dialog_content">Êtes-vous sûr de vouloir effacer ce compte?</string>
+	<string name="oasisgames_sdk_common_errorcode_negative_4">Erreur du compte ou du mot de passe</string>
+	<string name="oasissdk_temp_9">Connexion réussi!</string>
+	<string name="oasisgames_sdk_login_result_3">Connexion échoué!</string>
+	<string name="oasisgames_sdk_login_error_value_3">Cette adresse email a déjà été inscrite, vous pouvez vous connecter directement.</string>
+	<string name="oasisgames_sdk_login_error_value_1">Votre signature n\'a pas passé.</string>
+	<string name="oasisgames_sdk_login_error_value_4">Erreur inconnue </string>
+	<string name="oasisgames_sdk_login_repassword_text">Confirmer le mot de passe</string>
+	<string name="oasisgames_sdk_login_result_2">Inscription réussi!</string>
+	<string name="oasissdk_temp_10">Changement réussi!</string>
+	<string name="oasissdk_temp_11">Lier les comptes</string>
+	<string name="oasisgames_sdk_guide_notice4">Partager</string>
+	<string name="oasisgames_sdk_login_result_4">Vous êtes en train d\'utiliser ce compte.</string>
+	<string name="oasisgames_sdk_bind_error_token_lose">Liaison impossible! L\'obtention de "Token" a échoué.</string>
+	<string name="oasisgames_sdk_bind_error_value_1">Vérification de "Sign" échoué</string>
+	<string name="oasissdk_temp_12">Erreur du compte ou du mot de passe</string>
+	<string name="oasissdk_temp_13">Ces comptes ont déjà été liés, impossible de les lier encore.</string>
+	<string name="oasisgames_sdk_bind_error_value_4">Les paramètres ne peuvent pas être vides.</string>
+	<string name="oasisgames_sdk_bind_error_value_3">Deux comptes se trouvant dans un même serveur ne peuvent pas être liés.</string>
+	<string name="oasisgames_sdk_common_errorcode_negative_999">Autre erreur</string>
+	<string name="oasissdk_temp_14">Déjà partagé sur Facebook</string>
+	<string name="oasisgames_sdk_share_btn_text">Partager sur Facebook</string>
+	<string name="oasisgames_sdk_share_content_hint">Partager votre état d\'esprit</string>
+	<string name="oasisgames_sdk_share_success">Partage réussi </string>
+	<string name="oasisgames_sdk_share_fail">Partage échoué </string>
+	<string name="oasisgames_sdk_share_cancled">L\'opération de partage a été annulé.</string>
+	<string name="oasisgames_sdk_exit_title">Remarque importante</string>
+	<string name="oasisgames_sdk_error_exception">Une anomalie a été détectée, veuillez réessayer dans un instant.</string>
+	<string name="oasisgames_sdk_pay_notice2">ID du serveur:</string>
+	<string name="oasisgames_sdk_pay_btn_error1">Échec du passage de la commande, veuillez réessayer dans un instant.</string>
+	<string name="oasisgames_sdk_pay_error_success">Paiement réussi</string>
+	<string name="oasisgames_sdk_pay_error_success2">Paiement complété! Veuillez attendre la confirmation du fournisseur.</string>
+	<string name="oasisgames_sdk_pay_error_success_fail">Le paiement a réussi, mais la recharge a échoué.</string>
+	<string name="oasisgames_sdk_pay_error_getinfos_fail">L\'obtention des informations sur le forfait a échoué. </string>
+	<string name="oasisgames_sdk_pay_infobip_notice_1">L\'appareil doit obligatoirement contenir une carte SIM.</string>
+	<string name="oasisgames_sdk_pay_infobip_notice_2">L\'appareil ne doit pas être en mode avion.</string>
+	<string name="oasisgames_sdk_pay_infobip_notice_3">L\'appareil doit obligatoirement avoir accès à l\'internet.</string>
+	<string name="oasisgames_sdk_pay_infobip_notice_4">Impossible de lire les codes du pays et du réseau mobiles.</string>
+	<string name="oasisgames_sdk_pay_infobip_notice_5">Les services possédant un API KEY n\'existent pas.</string>
+	<string name="oasisgames_sdk_pay_infobip_notice_6">Les services possédant un API KEY sont interdits.</string>
+	<string name="oasisgames_sdk_pay_infobip_notice_7">Ne supporte pas tous les pays.</string>
+	<string name="oasisgames_sdk_pay_infobip_notice_8">Service non disponible</string>
+	<string name="oasisgames_sdk_pay_google_notice_3">Échec de l\'achat du produit</string>
+	<string name="oasisgames_sdk_pay_google_notice_4">La vérification de l\'achat a échoué, veuillez réessayer dans un instant.</string>
+	<string name="oasisgames_sdk_pay_google_notice_alert_content">La recharge a échoué, veuillez réessayer ou contacter notre service client. </string>
+	<string name="oasissdk_temp_15">L\'envoi des diamants a échoué, veuillez réessayer ou contacter notre service client.</string>
+	<string name="oasisgames_sdk_pay_google_notice_alert_retry">Réessayer </string>
+	<string name="oasisgames_sdk_pay_google_notice_alert_close">Fermer</string>
+	<string name="oasisgames_sdk_common_btn_cancle">Annuler</string>
+	<string name="oasisgames_sdk_login_username_notice_error">Veuillez entrer une adresse email correcte.</string>
+	<string name="oasisgames_sdk_login_username_notice_error2">Ne supporte que la combinaison de lettres, de chiffres et de "_" ou les adresses email habituelles.</string>
+	<string name="oasissdk_temp_16">Centre de paiement</string>
+	<string name="oasisgames_sdk_common_errorcode_negative_7">Compte inexistant </string>
+	<string name="oasisgames_sdk_common_errorcode_negative_6">Compte existant</string>
+	<string name="oasissdk_temp_17">Un personnage a déjà été créé pour le compte actuel. Êtes-vous sûr de vouloir couvrir les données de ce personnage? (Veuillez procéder avec précaution)</string>
+	<string name="oasisgames_sdk_login_password_notice_error">Le mot de passe doit comprendre 6 à 20 caractères.</string>
+	<string name="oasisgames_sdk_pay_error_fail">Paiement échoué </string>
+	<string name="oasisgames_sdk_login_notice_3">Choisir parmi les procédés suivants pour vous connecter au jeu.</string>
+	<string name="oasisgames_sdk_login_notice_5">S\'inscrire maintenant</string>
+	<string name="oasisgames_sdk_login_notice_6">Pour des raisons de sécurité et pour éviter la perte de votre compte, nous vous proposons de créer tout de suite un compte Oasis Games. </string>
+	<string name="oasisgames_sdk_head_title_charge">Recharger</string>
+	<string name="oasisgames_sdk_menu_notice_drag">Vous pouvez glisser-déposer.</string>
+	<string name="oasisgames_sdk_pay_notice_null2">Pour le moment, il est impossible d\'obtenir les informations concernant le forfait. Veuillez cliquer pour actualiser ou utiliser un PC pour recharger.</string>
+	<string name="oasisgames_sdk_menu_notice_relogin">Impossible d\'obtenir les données du personnage, reconnectez vous svp.</string>
+	<string name="oasissdk_temp_18">Pour le moment, il est impossible d\'obtenir les informations concernant le forfait. Veuillez cliquer pour actualiser.</string>
+	<string name="oasisgames_sdk_head_title_register_1">S\'inscrire</string>
+	<string name="oasissdk_temp_19">Changer de compte</string>
+	<string name="oasissdk_temp_20">Recharger</string>
+	<string name="oasissdk_temp_21">Partager</string>
+	<string name="oasisgames_sdk_guide_notice5">Aide</string>
+	<string name="oasisgames_sdk_guide_notice1">Cette inscription liera votre personnage actuel à ce compte.</string>
+	<string name="oasisgames_sdk_guide_notice2">Le personnage actuel peut être lié à ce compte.</string>
+	<string name="oasisgames_sdk_guide_notice3">La recharge à travers un PC est beaucoup plus avantageuse.</string>
+	<string name="oasisgames_sdk_login_notice_7">Quitter le jeu</string>
+	<string name="oasisgames_sdk_login_notice_8">Quitter le jeu?</string>
+	<string name="oasisgames_sdk_common_errorcode_negative_13">La connexion de votre appareil a été temporairement suspendue. Veuillez contacter notre service client.</string>
+	<string name="oasisgames_sdk_common_errorcode_negative_14">La connexion de votre compte a été temporairement suspendue. Veuillez contacter notre service client.</string>
+	<string name="oasisgames_sdk_login_notice_11">La recharge à partir de votre appareil a été temporairement suspendue. Veuillez aller à la page mpay.oasgames.com pour plus de détails. </string>
+	<string name="oasisgames_sdk_login_notice_12">La recharge de votre compte a été temporairement suspendue. Veuillez aller à la page mpay.oasgames.com pour plus de détails. </string>
+	<string name="oasisgames_sdk_login_notice_13">La connexion du compte que vous avez entré est temporairement suspendue. Veuillez contacter notre service client.</string>
+	<string name="oasisgames_sdk_login_notice_14">La connexion du compte auquel vous voulez passer est temporairement suspendue. Veuillez contacter notre service client.</string>
+	<string name="oasisgames_sdk_bind_notice_error">Il y a déjà un personnage relatif dans le compte USERNAME. Voulez-vous l\'utiliser pour jouer?</string>
+	<string name="oasisgames_sdk_bind_notice_error2">Le personnage actuel sera PERMANENTLYLOST. Êtes-vous sûr de vouloir jouer avec l\'ancien personnage (celui qui vient du compte USERNAME)?</string>
+	<string name="oasisgames_sdk_bind_notice_error3">perdu définitivement</string>
+	<string name="oasisgames_sdk_common_net_disable">Veuillez vous connecter à l\'internet.</string>
+	<string name="oasisgames_sdk_common_net_exception">Connexion en cours, patientez svp…</string>
+	<string name="oasisgames_sdk_pay_order_notice_old">Des commandes non-traités ont été aperçues. Elles sont en cours de traitement, veuillez patienter svp…</string>
+	<string name="oasisgames_sdk_pay_google_notice_1">L\'initialisation du paiement a échoué, veuillez réessayer dans un instant.</string>
+	<string name="oasisgames_sdk_pay_google_notice_2">L\'obtention des informations sur le produit a échoué. Veuillez réessayer dans un instant. </string>
+	<string name="oasisgames_sdk_bind_notice_error5">Je n\'ai pas encore eu de compte.</string>
+	<string name="oasisgames_sdk_bind_notice_error4">Le compte avec lequel vous essayez de jouer a été utilisé pour effectuer des paiements. Il est impossible de le lier. Veuillez choisir parmi les opérations suivantes.</string>
+	<string name="oasisgames_sdk_pcenter_notice_2">Centre Person</string>
+	<string name="oasisgames_sdk_pcenter_notice_5">Compte d\'essai</string>
+	<string name="oasisgames_sdk_pay_history_1">Montant payé </string>
+	<string name="oasisgames_sdk_pay_history_2">Produit(s) obtenu(s)</string>
+	<string name="oasisgames_sdk_pay_history_3">Période de recharge</string>
+	<string name="oasisgames_sdk_pay_history_4">Vous n\'avez aucun historique de recharge.</string>
+	<string name="oasisgames_sdk_pcenter_notice_3">Modifier le MP</string>
+	<string name="oasisgames_sdk_pcenter_notice_1">Forum</string>
+	<string name="oasisgames_sdk_modify_1">Mot de passe initial</string>
+	<string name="oasisgames_sdk_modify_2">Nouveau mot de passe</string>
+	<string name="oasisgames_sdk_modify_3">Confirmer</string>
+	<string name="oasisgames_sdk_modify_8">Mot de passe initial incorrect</string>
+	<string name="oasisgames_sdk_modify_6">Confirmation du nouveau mot de passe incorrecte</string>
+	<string name="oasisgames_sdk_modify_7">Modification réussi </string>
+	<string name="oasisgames_sdk_pcenter_notice_4">Hist. des recharges</string>
+	<string name="oasisgames_sdk_modify_4">Veuillez entrer le mot de passe initial.</string>
+	<string name="oasisgames_sdk_modify_5">Veuillez entrer le nouveau mot de passe.</string>
+	<string name="oasisgames_sdk_forum_1">La connexion au forum a échoué, veuillez relancer le jeu.</string>
+	<string name="oasisgames_sdk_pcenter_notice_6">Centre du service client</string>
+	<string name="oasisgames_sdk_customer_notice1">Résolution...</string>
+	<string name="oasisgames_sdk_customer_notice2">Fermé(e)</string>
+	<string name="oasisgames_sdk_common_more">Plus</string>
+	<string name="oasisgames_sdk_customer_notice3">Notre service client vous répondra dans les plus brefs délais.</string>
+	<string name="oasisgames_sdk_customer_notice5">Aucune information</string>
+	<string name="oasisgames_sdk_customer_notice6">Prochaine étape </string>
+	<string name="oasisgames_sdk_customer_notice7">Fermer</string>
+	<string name="oasisgames_sdk_customer_notice4">Détails de la question </string>
+	<string name="oasisgames_sdk_customer_notice8">Types de questions</string>
+	<string name="oasisgames_sdk_customer_notice9">Images</string>
+	<string name="oasisgames_sdk_customer_notice11">Envoyer</string>
+	<string name="oasisgames_sdk_customer_notice10">Images locales</string>
+	<string name="oasisgames_sdk_customer_notice12">Aperçu</string>
+	<string name="oasisgames_sdk_login_notice_addpersonalinfo">Pour des raisons de sécurité, nous vous proposons de parfaire vos informations personnelles, afin que vous puissiez les utiliser comme moyen de récupérer votre compte. </string>
+	<string name="oasisgames_sdk_pcenter_notice_7">Données</string>
+	<string name="oasisgames_sdk_head_title_customer">Historique</string>
+	<string name="oasisgames_sdk_customer_notice13">Moi</string>
+	<string name="oasisgames_sdk_customer_notice14">Pas de type de question</string>
+	<string name="oasisgames_sdk_share_notapp">Veuillez partager les images après avoir installé facebook.</string>
+	<string name="oasissdk_temp_22">Copier</string>
+	<string name="oasisgames_sdk_customer_notice15">Merci pour votre question, nous espérons que notre réponse est satisfaisante</string>
+    
+	<string name="oasisgames_sdk_pcenter_notice_10">Visiteur</string>
+	<string name="oasisgames_sdk_pcenter_notice_11">Lier</string>
+	<string name="oasisgames_sdk_pcenter_notice_9">Passer à un autre compte pour jouer avec.</string>
+	<string name="oasisgames_sdk_bind_guide_1">Choisir un compte existant et lier le au personnage avec lequel vous jouer actuellement.</string>
+	<string name="oasisgames_sdk_bind_guide_2">Créer un nouveau compte OAS et lier le au personnage actuel.</string>
+	<string name="oasisgames_sdk_pcenter_notice_8">Lier le personnage actuel, afin de ne pas perdre votre progrès.</string>
+	<string name="oasisgames_sdk_common_warn">Avertissement</string>
+	
+	<string name="oasisgames_sdk_customer_notice16">Images</string>
+	<string name="oasisgames_sdk_pcenter_notice_13">Utilisez E-pin pour échanger les objets rares du jeu.</string>
+	<string name="oasisgames_sdk_epin_notice_4">Pièces de monnaie du jeu échangées avec succès: DIAMOND</string>
+	<string name="oasisgames_sdk_epin_notice_3">Vérifiez s\'il n\'y a pas d\'erreur de saisie en cas d\'échec de l\'échange. </string>
+	<string name="oasisgames_sdk_pcenter_notice_12">Don</string>
+	<string name="oasisgames_sdk_epin_notice_1">Code du cadeau</string>
+	<string name="oasisgames_sdk_epin_notice_2">Retirer</string>
+<string name="oasisgames_sdk_epin_notice_5">Le code ne peut pas être vide.</string>
+<string name="oasisgames_sdk_pcenter_notice_14">Veuillez d\'abord entrer dans le serveur.</string>
+<string name="oasisgames_sdk_common_retry">Tapotez pour recharger.</string>
+	
+    <string name="oasisgames_sdk_login_accredit_title">Annonce</string>
+<string name="oasisgames_sdk_login_accredit_notice">Vous avez connecté avec un compte OASIS dernière fois,veuillez autoriser manuellement, saisi la page d\'autorisation dans trois secondes.</string>
+<string name="oasisgames_sdk_login_accredit_notice_1">Autorisation en cours…</string>
+<string name="oasisgames_sdk_login_accredit_notice_2">A propos d\'entrer…</string>
+<string name="oasisgames_sdk_login_accredited_notice">Vous avez autorisé un compte de connexion non-récemment, vous pouvez remplacer un nouveau en changeant le compte.</string>
+<string name="oasisgames_sdk_login_accredited_notice_1">Entrez la plate-forme appropriée, après la mise en compte, cliquez sur "Autorisation"</string>
+<string name="oasisgames_sdk_login_accredited_btn_1">Connecter avec un autre compte</string>
+<string name="oasisgames_sdk_login_accredited_btn_2">Autorisation de compte</string>
+
+<string name="oasisgames_sdk_login_history_recent">Connexion récente:</string>
+<string name="oasisgames_sdk_login_history_nickname">Pseudo:</string>
+<string name="oasisgames_sdk_login_history_server_id">Serveur:</string>
+<string name="oasisgames_sdk_login_history_role_level">Niv:</string>
+<string name="oasisgames_sdk_login_history_role_name">Avatar:</string>
+<string name="oasisgames_sdk_login_history">Historique du compte</string>
+<string name="oasisgames_sdk_login_history_title">Historique d\'Avatar</string>
+<string name="oasisgames_sdk_login_history_enter">Démarrer </string>
+<!-- 3.5 -->
+<string name="oasisgames_sdk_pay_history_5">Copier</string>
+<string name="oasisgames_sdk_pay_history_6">Mode de paiement</string>
+<string name="oasisgames_sdk_pay_history_7">Suivi de commande</string>
+<string name="oasisgames_sdk_pay_history_8">Numéro de commande</string>
+<string name="oasisgames_sdk_pay_history_9">Heure de commande</string>
+<string name="oasisgames_sdk_pay_history_10">Copier dans le presse-papier</string>
+<string name="oasisgames_sdk_pay_history_11">Complété</string>
+<string name="oasisgames_sdk_pay_history_12">Inachevé</string>
+<string name="oasisgames_sdk_feedback_notice_account">En raison d\'action de remboursement, le compte %1$s a été banni, veuillez saisir votre contact et une description, le service client vous contactera sous peu </string>
+<string name="oasisgames_sdk_feedback_notice_account1">Compte actuel</string>
+<string name="oasisgames_sdk_feedback_notice_device">En raison d\'action de remboursement, ce compte a été banni, veuillez saisir votre contact et une description, le service client vous contactera sous peu </string>
+<string name="oasisgames_sdk_feedback_hint_email">Adresse email</string>
+<string name="oasisgames_sdk_feedback_hint_discrip">Description</string>
+<string name="oasisgames_sdk_common_btn_submit">Soumettre</string>
+<string name="oasisgames_sdk_feedback_submit_error_email">Erreur d\'email</string>
+<string name="oasisgames_sdk_feedback_submit_error_descrip">La description ne peut-être vide</string>
+<string name="oasisgames_sdk_feedback_submit_success">Soumis avec succès, le service client vous contactera.</string>
+
+</resources>

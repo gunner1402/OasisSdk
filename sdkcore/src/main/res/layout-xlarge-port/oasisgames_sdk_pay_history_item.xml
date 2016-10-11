@@ -1,0 +1,157 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/oasisgames_sdk_common_box_grey"
+    android:orientation="vertical">
+
+    <RelativeLayout android:layout_width="fill_parent"
+        android:layout_height="54dip"
+        android:layout_gravity="top">
+        <TextView
+	        android:id="@+id/oasisgames_sdk_pay_history_item_copy"
+	        android:layout_width="150dip"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:background="@color/oasisgames_sdk_color_font_00aed9"
+	        android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+	        android:textSize="24sp" 
+	        android:gravity="center"
+	        android:text="@string/oasisgames_sdk_pay_history_5"/>
+        <TextView
+	        android:id="@+id/oasisgames_sdk_pay_history_item_orderid"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_centerVertical="true"
+	        android:paddingLeft="8dip"
+	        android:gravity="center_vertical"
+	        android:singleLine="true"
+	        android:ellipsize="end"
+	        android:layout_toLeftOf="@id/oasisgames_sdk_pay_history_item_copy"
+	        android:textColor="@color/oasisgames_sdk_color_font_00aed9"
+	        android:textSize="24sp" />
+
+    </RelativeLayout>
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="2dip"
+		android:background="@color/oasisgames_sdk_color_list_divider_d1d1d1"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/oasisgames_sdk_color_bg_f3f3f3"
+        android:paddingTop="15dip"
+        android:paddingBottom="15dip"
+        android:paddingLeft="8dip">
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal">
+			<!-- 支付金额 -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+				android:text="@string/oasisgames_sdk_pay_history_1"
+				android:textColor="#666666"
+		        android:textSize="24sp"/>
+	        <TextView
+		        android:id="@+id/oasisgames_sdk_pay_history_item_price"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:textColor="#666666"
+		        android:textSize="24sp" />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="8dip" >
+			<!-- 获得商品 -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+				android:text="@string/oasisgames_sdk_pay_history_2"
+		        android:textColor="#666666"
+		        android:textSize="24sp"/>
+	
+	        <TextView
+		        android:id="@+id/oasisgames_sdk_pay_history_item_coins"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:textColor="#666666"
+		        android:textSize="24sp" />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="8dip" >
+			<!-- 支付渠道 -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+				android:text="@string/oasisgames_sdk_pay_history_6"
+		        android:textColor="#666666"
+		        android:textSize="24sp"/>
+	
+	        <TextView
+		        android:id="@+id/oasisgames_sdk_pay_history_item_payway"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:textColor="#666666"
+		        android:textSize="24sp" />
+	    </LinearLayout>
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="8dip">
+			<!-- 订单状态 -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+				android:text="@string/oasisgames_sdk_pay_history_7"
+		        android:textColor="#666666"
+		        android:textSize="24sp"/>
+	
+	        <TextView
+		        android:id="@+id/oasisgames_sdk_pay_history_item_orderstatus"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:textColor="#666666"
+		        android:textSize="24sp" />
+	    </LinearLayout>
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_marginTop="8dip" >
+			<!-- 充值时间 -->
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_gravity="center_vertical"
+				android:text="@string/oasisgames_sdk_pay_history_3"
+		        android:textColor="#666666"
+		        android:textSize="24sp"/>
+	
+	        <TextView
+		        android:id="@+id/oasisgames_sdk_pay_history_item_time"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:gravity="center_vertical"
+		        android:textColor="#666666"
+		        android:textSize="24sp" />
+	    </LinearLayout>
+	</LinearLayout>
+</LinearLayout>

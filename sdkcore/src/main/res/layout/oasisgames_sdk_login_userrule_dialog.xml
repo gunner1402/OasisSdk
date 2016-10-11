@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="346dip"
+    android:layout_height="250dip"
+    android:background="#FFFFFF"
+    android:orientation="vertical" 
+    android:layout_gravity="center">
+
+    <WebView
+        android:id="@+id/oasisgames_sdk_login_userrule_webview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_gravity="center_horizontal" 
+        android:layout_margin="10dip"/>
+
+	<LinearLayout 
+        android:id="@+id/oasisgames_sdk_login_userrule_close"
+        android:layout_width="52dip"
+        android:layout_height="52dip"  
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:gravity="center">  
+	    <TextView
+	        android:layout_width="@dimen/oasisgames_sdk_dimen_common_close_bg_wh"
+	        android:layout_height="@dimen/oasisgames_sdk_dimen_common_close_bg_wh"  
+	        android:background="@drawable/oasisgames_sdk_common_close" />
+    </LinearLayout>
+    
+	<TextView
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"  
+	        android:background="@drawable/oasisgames_sdk_common_box_grey" />
+</RelativeLayout>

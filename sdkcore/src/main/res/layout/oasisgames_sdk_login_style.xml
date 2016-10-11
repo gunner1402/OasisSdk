@@ -1,0 +1,45 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+    
+    <include layout="@layout/oasisgames_sdk_common_layout_head"/>
+    
+    
+	    <LinearLayout 
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent" >
+		
+		    <include
+		        android:id="@+id/oasisgames_sdk_login_style_selector"
+		        layout="@layout/oasisgames_sdk_login_style_selector" 
+		        android:visibility="gone" />
+		
+		    <include
+		        android:id="@+id/oasisgames_sdk_login_login_view"
+		        layout="@layout/oasisgames_sdk_login_login_view"
+		        android:visibility="gone" />
+		
+		    <include
+		        android:id="@+id/oasisgames_sdk_login_regist_view"
+		        layout="@layout/oasisgames_sdk_login_regist_view"
+		        android:visibility="gone" />
+		    		    
+		    <include
+		        android:id="@+id/oasisgames_sdk_accredit_notice_view"
+		        layout="@layout/oasisgames_sdk_login_accredit_notice"
+		        android:visibility="gone" />
+		    
+		    <include
+		        android:id="@+id/oasisgames_sdk_login_history_view"
+		        layout="@layout/oasisgames_sdk_login_history"
+		        android:visibility="gone" />
+		</LinearLayout>
+		
+	    <!-- <ScrollView 
+	    android:layout_width="fill_parent" 
+	    android:layout_height="fill_parent"
+	    android:scrollbars="none"> -->
+</LinearLayout>
+

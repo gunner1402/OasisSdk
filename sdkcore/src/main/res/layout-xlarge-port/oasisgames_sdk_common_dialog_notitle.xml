@@ -1,0 +1,65 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="500dip"
+    android:layout_height="300dip"
+    android:background="@drawable/oasisgames_sdk_common_bg_ffffff"
+    android:orientation="vertical" 
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:id="@+id/oasisgames_sdk_common_dialog_notitle_button"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" 
+        android:layout_alignParentBottom="true"
+        android:gravity="center" 
+    	android:padding="15dip">
+
+        <TextView
+            android:id="@+id/oasisgames_sdk_common_dialog_notitle_text"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/oasisgames_sdk_dimen_login_button_height"
+            android:layout_weight="1"
+            android:layout_marginRight="10dip"
+            android:layout_marginLeft="10dip"
+            android:gravity="left|bottom"
+            android:textColor="@color/oasisgames_sdk_color_font_666666"
+            android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24"
+            android:visibility="gone"/>
+
+        <TextView
+            android:id="@+id/oasisgames_sdk_common_dialog_notitle_sure"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/oasisgames_sdk_dimen_login_button_height"
+            android:background="@drawable/oasisgames_sdk_common_00aed9_017baa"
+            android:layout_weight="1"
+            android:layout_marginRight="10dip"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+            android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24"
+            android:text="@string/oasisgames_sdk_common_btn_sure"/>
+
+        <TextView
+            android:id="@+id/oasisgames_sdk_common_dialog_notitle_cancle"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/oasisgames_sdk_dimen_login_button_height"
+            android:background="@drawable/oasisgames_sdk_common_656565_929292"
+            android:layout_weight="1"
+            android:layout_marginRight="10dip"
+            android:layout_marginLeft="10dip"
+            android:gravity="center"
+            android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+            android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24"
+            android:text="@string/oasisgames_sdk_common_btn_cancle"/>
+    </LinearLayout>
+    
+    <TextView
+        android:id="@+id/oasisgames_sdk_common_dialog_notitle_content"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@id/oasisgames_sdk_common_dialog_notitle_button"
+        android:padding="15dip"
+        android:gravity="center"
+        android:textColor="#666666"
+        android:textSize="18sp" />
+</RelativeLayout>

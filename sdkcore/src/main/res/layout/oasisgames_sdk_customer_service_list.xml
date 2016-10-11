@@ -1,0 +1,82 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:orientation="vertical"
+        android:background="@color/oasisgames_sdk_color_bg_227_227_227">
+	    <include layout="@layout/oasisgames_sdk_common_layout_head"/>
+	    
+	    <LinearLayout
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+	        android:layout_gravity="center"
+	        android:gravity="center" 
+	        android:layout_marginTop="20dip"
+	        android:layout_marginLeft="40dip"
+	        android:layout_marginRight="40dip">
+	
+	        <TextView
+	            android:id="@+id/oasisgames_sdk_customer_service_list_func_ing"
+	            android:layout_width="fill_parent"
+	            android:layout_height="60dip"
+	            android:onClick="funcClickIng"
+	            android:clickable="true"
+	            android:layout_weight="1"
+	            android:background="@drawable/oasisgames_sdk_common_tab_bg_focus" 
+	            android:text="@string/oasisgames_sdk_customer_notice1"
+	            android:gravity="center"
+	            android:textSize="24sp"
+	            android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"/>
+	        <TextView
+	            android:id="@+id/oasisgames_sdk_customer_service_list_func_ed"
+	            android:layout_width="fill_parent"
+	            android:layout_height="60dip"
+	            android:onClick="funcClickEd"
+	            android:clickable="true"
+	            android:layout_weight="1"
+	            android:background="@drawable/oasisgames_sdk_common_tab_bg_unfocus" 
+	            android:text="@string/oasisgames_sdk_customer_notice2"
+	            android:gravity="center"
+	            android:textSize="24sp"
+	            android:textColor="@color/oasisgames_sdk_color_font_666666"/>
+	    </LinearLayout>
+	
+		<ListView 
+		    android:id="@+id/oasisgames_sdk_customer_service_list_question"
+		    android:layout_width="fill_parent"
+		    android:layout_height="fill_parent"
+		    android:layout_marginTop="10dip"
+		    android:layout_marginLeft="20dip"
+		    android:layout_marginRight="20dip"
+		    android:layout_marginBottom="20dip"
+		    android:background="@drawable/oasisgames_sdk_common_box_grey"
+		    android:divider="@color/oasisgames_sdk_color_list_divider_d1d1d1"
+		    android:dividerHeight="1dip" 
+		    android:listSelector="@drawable/oasisgames_sdk_common_list_item_selector"
+		    android:fadingEdge="none"
+		    android:fadingEdgeLength="0dip"/>
+		
+	</LinearLayout>
+	<TextView
+            android:id="@+id/oasisgames_sdk_customer_service_list_empty"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:text="@string/oasisgames_sdk_customer_notice5"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:layout_marginTop="50dip"
+            android:textColor="@color/oasisgames_sdk_color_font_666666"
+            android:visibility="invisible"/>
+	<com.mopub.volley.toolbox.NetworkImageView
+        android:id="@+id/oasisgames_sdk_customer_service_list_item_img_details"
+        android:contentDescription="@string/oasisgames_sdk_common_imageview_disctiption"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:scaleType="centerInside"
+        android:visibility="invisible"/>
+
+</merge>

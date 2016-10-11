@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <dimen name="oasisgames_sdk_dimen_login_notice_height">110dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_notice_margin">28dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_textview_wh">120dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_textview_wh_small">40dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_button_height">40dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_input_wh">305dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_input_closebtn_wh">16dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_input_padding_40">40dip</dimen>
+    
+    <dimen name="oasisgames_sdk_dimen_menu_control_wh">136px</dimen>
+    <dimen name="oasisgames_sdk_dimen_menu_control_padding">8px</dimen>
+    <dimen name="oasisgames_sdk_dimen_menu_item_w">114px</dimen>
+    
+    <dimen name="oasisgames_sdk_dimen_guide_bind_margin_pad_top1">210dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_guide_bind_margin_pad_top2">500dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_guide_bind_margin_pad_top2_p">710dip</dimen>
+    
+    <dimen name="oasisgames_sdk_dimen_guide_og_margin_left_0">80dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_guide_og_margin_left_1">125dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_guide_og_margin_left_2">170dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_guide_og_margin_left_3">215dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_guide_og_margin_left_4">260dip</dimen>
+    
+    <dimen name="oasisgames_sdk_dimen_login_textview_wh_pad">200dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_notice_height_pad">160dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_button_height_pad">60dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_input_wh_pad">600dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_notice_margin_pad">50dip</dimen>
+    <dimen name="oasisgames_sdk_dimen_login_textview_wh_small_pad">130dip</dimen>
+</resources>

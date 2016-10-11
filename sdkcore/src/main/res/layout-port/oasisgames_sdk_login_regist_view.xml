@@ -1,0 +1,98 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" 
+    android:padding="40dip"
+    		android:background="@color/oasisgames_sdk_color_bg_227_227_227" >
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+	    <EditText
+	        android:id="@+id/oasisgames_sdk_login_register_view_username"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/oasisgames_sdk_common_input_bg_username_selector"
+	        android:hint="@string/oasisgames_sdk_login_hint_username"
+	        android:inputType="text"
+	        android:maxLength="50"
+	        android:paddingLeft="@dimen/oasisgames_sdk_dimen_login_input_padding_40"
+	        android:paddingRight="40dip"
+	        android:singleLine="true"
+	        android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24" 
+	        android:textColor="@color/oasisgames_sdk_color_font_9f9f9f"/>
+	    <LinearLayout 
+	        android:id="@+id/oasisgames_sdk_login_register_view_username_clean"
+	        android:layout_width="40dip"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:visibility="invisible">
+	        <TextView 
+	        android:id="@+id/oasisgames_sdk_login_register_view_username_clean_img"
+		        android:layout_width="@dimen/oasisgames_sdk_dimen_login_input_closebtn_wh"
+		        android:layout_height="@dimen/oasisgames_sdk_dimen_login_input_closebtn_wh"
+		        android:background="@drawable/oasisgames_sdk_common_input_bg_clean_selector"/>
+	    </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+	        android:layout_marginTop="@dimen/oasisgames_sdk_dimen_login_notice_margin">
+	    <EditText
+	        android:id="@+id/oasisgames_sdk_login_register_view_password"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/oasisgames_sdk_common_input_bg_password_selector"
+	        android:hint="@string/oasisgames_sdk_login_hint_password"
+	        android:inputType="textPassword"
+	        android:maxLength="20"
+	        android:paddingLeft="@dimen/oasisgames_sdk_dimen_login_input_padding_40"
+	        android:paddingRight="40dip"
+	        android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24"  
+	        android:textColor="@color/oasisgames_sdk_color_font_9f9f9f"/>
+	    <LinearLayout 
+	        android:id="@+id/oasisgames_sdk_login_register_view_password_clean"
+	        android:layout_width="40dip"
+	        android:layout_height="wrap_content"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:gravity="center"
+	        android:visibility="invisible">
+	        <TextView 
+	        	android:id="@+id/oasisgames_sdk_login_register_view_password_clean_img"
+		        android:layout_width="@dimen/oasisgames_sdk_dimen_login_input_closebtn_wh"
+		        android:layout_height="@dimen/oasisgames_sdk_dimen_login_input_closebtn_wh"
+		        android:background="@drawable/oasisgames_sdk_common_input_bg_clean_selector"/>
+	    </LinearLayout>
+	    
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/oasisgames_sdk_login_login_view_rule_content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:gravity="right|center_vertical"
+        android:text="@string/oasisgames_sdk_bind_btn_userrule"
+        android:textColor="@color/oasisgames_sdk_color_font_9f9f9f"
+        android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24" />
+
+    <TextView
+        android:id="@+id/oasisgames_sdk_login_register_view_submit"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="@dimen/oasisgames_sdk_dimen_login_button_height"
+        android:layout_marginTop="@dimen/oasisgames_sdk_dimen_login_notice_margin"
+        android:background="@drawable/oasisgames_sdk_common_00aed9_017baa"
+        android:gravity="center"
+        android:onClick="buttonOnClick"
+        android:text="@string/oasisgames_sdk_bind_btn_regist" 
+        android:textColor="@color/oasisgames_sdk_color_font_FFFFFF"
+        android:textSize="@dimen/oasisgames_sdk_dimen_common_button_font_size_24"/>
+
+</LinearLayout>

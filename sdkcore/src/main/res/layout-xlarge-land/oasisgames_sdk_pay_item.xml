@@ -1,0 +1,73 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:background="@drawable/oasisgames_sdk_pay_item_bg_unfocus">
+
+    <TextView
+        android:id="@+id/oasisgames_sdk_pay_item_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dip"
+        android:textColor="#666666"
+        android:textSize="18sp"
+        android:layout_centerVertical="true"/>
+    
+    <LinearLayout 
+        android:id="@+id/oasisgames_sdk_pay_item_addcoins"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="300dip"
+        android:gravity="left|center_vertical">
+        <TextView
+		    android:id="@+id/oasisgames_sdk_pay_item_connect"
+		    android:layout_width="15dip"
+		    android:layout_height="wrap_content"
+		    android:gravity="left|center_vertical"
+		    android:text="@string/oasisgames_sdk_pay_item_connect_add"
+		    android:textColor="#666666"
+		    android:textSize="20sp" />
+		<TextView
+	        android:layout_width="14dip"
+	        android:layout_height="14dip"
+	        android:layout_gravity="center_vertical"
+	        android:background="@drawable/oasisgames_sdk_pay_item_diamond_logo_red" />
+	    <TextView
+	        android:id="@+id/oasisgames_sdk_pay_item_d2"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+        	android:textColor="#666666"
+	        android:textSize="16sp" />
+	</LinearLayout>
+
+    <LinearLayout 
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="200dip">
+	    
+		<TextView
+	        android:layout_width="14dip"
+	        android:layout_height="14dip"
+	        android:layout_gravity="center_vertical"
+	        android:background="@drawable/oasisgames_sdk_pay_item_diamond_logo" />
+	    <TextView
+	        android:id="@+id/oasisgames_sdk_pay_item_d"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+        	android:textColor="#666666"
+	        android:textSize="16sp" />
+    </LinearLayout>
+
+	<TextView
+	    android:id="@+id/oasisgames_sdk_pay_item_hot"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentTop="true"
+	    android:background="@drawable/oasisgames_sdk_payway_hot" 
+	    android:visibility="invisible"/>
+
+</RelativeLayout>

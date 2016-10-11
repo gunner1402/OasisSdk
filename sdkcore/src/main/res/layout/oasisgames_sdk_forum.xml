@@ -1,0 +1,108 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+	<LinearLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_gravity="center"
+	    android:background="@color/oasisgames_sdk_color_bg_227_227_227"
+	    android:orientation="vertical" >
+	
+	    <!-- <include layout="@layout/oasisgames_sdk_common_layout_head" /> -->
+	
+	    <LinearLayout
+	        android:id="@+id/oasisgames_sdk_forum_webview"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent" 
+	        android:orientation="horizontal"/>
+	
+	</LinearLayout>
+
+	<ProgressBar
+	    android:id="@+id/oasisgames_sdk_forum_progressbar"
+	    style="?android:attr/progressBarStyleHorizontal"
+	    android:layout_width="match_parent"
+	    android:layout_height="6dip"
+	    android:max="100"
+	    android:progressDrawable="@drawable/oasisgames_sdk_progressbar_color" />
+
+	<LinearLayout
+        android:id="@+id/oasisgames_sdk_forum_fuc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:background="@color/oasisgames_sdk_color_font_FFFFFF"
+        android:visibility="gone">
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+	        android:paddingTop="15dip"
+	        android:paddingBottom="15dip"
+        	android:onClick="onButtonClick_back"
+        	android:layout_weight="1"
+        	android:gravity="center">
+		    <TextView
+		        android:id="@+id/oasisgames_sdk_forum_fuc_back"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:background="@drawable/oasisgames_sdk_forum_fuc_back_unable"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+	        android:paddingTop="15dip"
+	        android:paddingBottom="15dip"
+        	android:onClick="onButtonClick_forward"
+        	android:layout_weight="1"
+        	android:gravity="center">
+		    <TextView
+		        android:id="@+id/oasisgames_sdk_forum_fuc_forward"
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:background="@drawable/oasisgames_sdk_forum_fuc_forward_unable"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+	        android:paddingTop="15dip"
+	        android:paddingBottom="15dip"
+        	android:onClick="onButtonClick_refresh"
+        	android:layout_weight="1"
+        	android:gravity="center">
+		    <TextView
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+        		android:background="@drawable/oasisgames_sdk_forum_fuc_refresh_selector"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/oasisgames_sdk_forum_mini"
+	        android:layout_width="fill_parent"
+        	android:layout_height="fill_parent"
+	        android:paddingTop="15dip"
+	        android:paddingBottom="15dip"
+        	android:onClick="onButtonClick_mini"
+        	android:layout_weight="1"
+        	android:gravity="center">
+		    <TextView
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+        		android:background="@drawable/oasisgames_sdk_forum_fuc_mini_selector"/>
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:layout_width="fill_parent" 
+        	android:layout_height="fill_parent"
+	        android:paddingTop="15dip"
+	        android:paddingBottom="15dip"
+        	android:onClick="onButtonClick_exit"
+        	android:layout_weight="1"
+        	android:gravity="center">
+		    <TextView
+		        android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+        		android:background="@drawable/oasisgames_sdk_forum_fuc_exit_selector"/>
+	    </LinearLayout>
+	    
+    </LinearLayout>
+    
+</FrameLayout>
